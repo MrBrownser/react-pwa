@@ -3,3 +3,5 @@ build
 .env
 .firebaserc
 firebase.json
+database.rules.json
+storage.rules
