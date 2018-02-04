@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --https",
-    "prestart": "opn https://0.0.0.0:8080 -- 'google chrome' --incognito --ignore-certificate-errors --unsafely-treat-insecure-origin-as-secure=https://0.0.0.0:8080",
+    "prestart": "opn https://0.0.0.0:8080 -- 'google chrome' --incognito --ignore-certificate-errors --unsafely-treat-insecure-origin-as-secure=https://0.0.0.0:8080/#/",
     "build": "rm -rf build && webpack --env.production",
     "build:debug": "rm -rf build && webpack",
     "deploy": "npm run build && firebase deploy",
